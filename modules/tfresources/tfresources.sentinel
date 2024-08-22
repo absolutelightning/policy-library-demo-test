@@ -1,0 +1,15 @@
+func by_type(resources, type) {
+	return {
+	    "resources": filter resources as address, r {
+			r.type is type
+		},
+    }
+}
+
+func plan(resources) {
+    return {
+		"type": func(type) {
+            return by_type(resources, type)
+        },
+    }
+}
