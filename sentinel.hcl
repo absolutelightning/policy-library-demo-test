@@ -1,6 +1,9 @@
-policy "kms-key-rotation-enabled" {
+policy "test-policy" {
   source = "./policies/kms-key-rotation-enabled.sentinel"
   enforcement_level = "advisory"
+  params = {
+    password_length = 14
+  }
 }
 
 import "module" "report" {
