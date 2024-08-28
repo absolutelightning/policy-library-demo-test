@@ -1,5 +1,5 @@
 policy "test-policy" {
-  source = "./policies/kms-key-rotation-enabled.sentinel"
+  source = "./policies/test-policy.sentinel"
   enforcement_level = "advisory"
   params = {
     password_length = 14
