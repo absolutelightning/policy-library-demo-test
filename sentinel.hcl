@@ -5,11 +5,3 @@ policy "test-policy" {
     password_length = 14
   }
 }
-
-import "module" "report" {
-  source = "./modules/report/report.sentinel"
-}
-
-import "module" "tfresources" {
-  source = "./modules/tfresources/tfresources.sentinel"
-}
