@@ -6,6 +6,6 @@ policy "test-policy" {
   }
 }
 
-module "tfresources" {
+import "module" "tfresources" {
   source = "./modules/check/check.sentinel"
 }
