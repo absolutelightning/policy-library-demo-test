@@ -5,3 +5,7 @@ policy "test-policy" {
     password_length = 14
   }
 }
+
+import "module" "tfresources" {
+  source = "./modules/check/check.sentinel"
+}
