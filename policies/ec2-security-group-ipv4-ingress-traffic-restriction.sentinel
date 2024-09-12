@@ -1,0 +1,6 @@
+violations = []
+
+main = rule {
+	violations is empty
+}
+
