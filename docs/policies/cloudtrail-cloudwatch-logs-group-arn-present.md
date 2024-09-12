@@ -1,0 +1,1 @@
+# Cloudtrail Cloudwatch Logs Group Arn is set (v1.2.0, v1.4.0)

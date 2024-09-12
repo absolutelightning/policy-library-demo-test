@@ -1,0 +1,1 @@
+# Cloudtrail S3 Bucket should not be public (v1.4.0, v3.0)
